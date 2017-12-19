@@ -1,2 +1,2 @@
 # BlueMesh
-BlueTooth Mesh Network
+Bluetooth Mesh Network
