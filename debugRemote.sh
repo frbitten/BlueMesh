@@ -9,4 +9,4 @@ javac -d bin -sourcepath src -cp lib/bluecove-bluez-2.1.1-SNAPSHOT.jar src/bluem
 echo "Debug code"
 java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=4000,suspend=n Main
 
-echo "Debug running..."
+echo "Debug running...."
