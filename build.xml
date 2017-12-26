@@ -12,12 +12,12 @@
                 <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
                 <attribute name="Rsrc-Main-Class" value="bluemesh.test.TestBlueMesh"/>
                 <attribute name="Class-Path" value="."/>
-                <attribute name="Rsrc-Class-Path" value="./ bluecove-bluez-2.1.1-SNAPSHOT.jar bluecove-2.1.1-SNAPSHOT.jar"/>
+                <attribute name="Rsrc-Class-Path" value="./ bluecove-2.1.1-SNAPSHOT.jar bluecove-gpl-2.1.1-SNAPSHOT.jar"/>
             </manifest>
             <zipfileset src="jar-in-jar-loader.zip"/>
             <fileset dir="${dir.buildfile}/bin"/>
-            <zipfileset dir="${dir.buildfile}/lib" includes="bluecove-bluez-2.1.1-SNAPSHOT.jar"/>
             <zipfileset dir="${dir.buildfile}/lib" includes="bluecove-2.1.1-SNAPSHOT.jar"/>
+            <zipfileset dir="${dir.buildfile}/lib" includes="bluecove-gpl-2.1.1-SNAPSHOT.jar"/>
         </jar>
     </target>
 </project>
