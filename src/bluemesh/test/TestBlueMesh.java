@@ -17,10 +17,11 @@ public class TestBlueMesh {
 		System.out.println("Iniciando Testes...");
 		
 		try {
-			if(!LocalDevice.isPowerOn()) {
-				System.out.println("Device desligado.");
-				System.exit(0);
-			}
+//			if(!LocalDevice.isPowerOn()) {
+//				System.out.println("Device desligado.");
+//				System.exit(0);
+//			}
+			
 			LocalDevice device= LocalDevice.getLocalDevice();
 			System.out.println(device.getFriendlyName()+ " - "+ device.getBluetoothAddress());
 			device.setDiscoverable(DiscoveryAgent.GIAC);
