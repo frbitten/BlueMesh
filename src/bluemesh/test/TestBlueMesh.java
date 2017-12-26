@@ -59,6 +59,7 @@ public class TestBlueMesh {
 			synchronized (agent) {
 	            agent.wait();
 	            System.out.println("Completed device discovery.");
+	            //teste
 	        }
 
 			
